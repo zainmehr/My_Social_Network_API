@@ -104,7 +104,7 @@ The API implements several security best practices:
 Create a .env file at the root of the project:
 ```bash
   PORT=3000
-  MONGO_URI=mongodb+srv://xena_db_user:Z5qWuuJYPJnPHZPv@mysocialnetwork.zjjzpng.mongodb.net/
+  MONGO_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/my_social_networks
   JWT_SECRET=your_secret_key
   JWT_EXPIRES_IN=2h
   CORS_ORIGINS=http://localhost:3000

@@ -1,4 +1,4 @@
-# My_Social_Network_API
+# My Social Network API
 
 ## Overview 
 

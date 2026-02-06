@@ -14,7 +14,6 @@ export function validate(schema) {
       });
     }
 
-    // Optionnel: remplacer par la version parsée (types / coercions)
     req.validated = result.data;
     return next();
   };
